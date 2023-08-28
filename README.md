@@ -26,22 +26,3 @@ and a lot of things i love to see how things work in depth, make things,<br>brea
 <a href="https://linkedin.com/in/anouar-riyane/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rayansec" height="30" width="40" /></a>  
 <a href="https://twitter.com/secutity2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="secutity2" height="30" width="40" /></a>  
 </p>  
-
-#!/usr/bin/env python3
-import time
-
-about_me = {
-  'Name':'Abdulrahman Mohammed',
-  'Nickname':'Mido - Devil',
-  'Age':22,
-  'i love':'cats🐈🐈 and Demons    😈 😈 ',
-  'msg for u': 'Life's goal is to finish, so do what you want before it ends. 😊❤️'
-}
-
-def main():
-  for t,i in about_me.items():
-    time.sleep(0.2)
-    print(f'{t}: {i}')
-  print('\nBye ;D')
-if __name__ == '__main__':
-  main()
